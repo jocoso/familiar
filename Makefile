@@ -1,13 +1,22 @@
-install:
-	pip3 install -r requirements.txt
+CXX := g++
+CXXFLAGS := -std=c++17 -Wall -Wextra -Iinclude
+TARGET := Familiar
+SOURCE := \
+	src/main.cpp \
+	src/Application.cpp
 
-populate:
-	pip3 list --format=freeze > requirements.txt
+OBJECTS := $(SOURCES:.cpp=.o)
+.PHONY: all clean run test
+all: $(TARGET)
 
+$(TARGET): $(OBJECTS) -o $@
+
+src/%.o: src/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+run: $(TARGET)
+	./$(TARGET)
 test:
-	py.test tests
+	@echo "Tests not configure yet."
 
-exec:
-	python3 sample/sample.py
-	
-.PHONY: install populate test exec
+clean:
+	rm -f $(OBJECTS) $(TARGET)
