@@ -1,7 +1,7 @@
 CXX := g++
 CXXFLAGS := -std=c++17 -Wall -Wextra -Iinclude
-TARGET := Familiar
-SOURCE := \
+TARGET := familiar
+SOURCES := \
 	src/main.cpp \
 	src/Application.cpp
 
@@ -9,8 +9,8 @@ OBJECTS := $(SOURCES:.cpp=.o)
 .PHONY: all clean run test
 all: $(TARGET)
 
-$(TARGET): $(OBJECTS) -o $@
-
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $@
 src/%.o: src/%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 run: $(TARGET)
