@@ -48,10 +48,7 @@ The familiar should respond more like a supportive companion offering ways to ge
 
 A task such as:
 
-Write my research paper.
-
-
-can feel enormous.
+Write my research paper. can feel enormous.
 
 Familiar should help transform it into:
 
@@ -74,14 +71,14 @@ Familiar should be capable of presenting:
 
 Current Quest
 
-→ Open your project document.
+ Open your project document.
 
 
 After completion:
 
 Next Quest
 
-→ Write three ideas for your introduction.
+ Write three ideas for your introduction.
 
 
 The user can still see the larger project when they need it, but they don't have to mentally process everything at once.
@@ -108,7 +105,7 @@ For example:
 
 🟢 Plenty of energy
 
-→ Work on the next major feature.
+Work on the next major feature.
 
 
 versus:
@@ -165,15 +162,25 @@ Breaking a task down should reduce cognitive load and not create another overwhe
 Instead of constantly displaying an entire task list, Familiar could maintain a single recommended next action.
 
 ╭──────────────────────────╮
-│ 🦉 Your Familiar         │
+
+│    Your Familiar         │
+
 │                          │
+
 │ Current Quest: Portfolio │
+
 │                          │
+
 │ Your next step:          │
+
 │                          │
+
 │ Open your project folder.│
+
 │                          │
+
 │ [ Done ]   [ Not Yet ]   │
+
 ╰──────────────────────────╯
 
 
