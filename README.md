@@ -115,20 +115,19 @@ versus:
 
 🔴 Overwhelmed
 
-→ Open the project.
+Open the project.
 
 That's it for now.
 
-🧠 Focus-Friendly Features
+## Focus-Friendly Features
 
 The following features are potential directions for making Familiar more useful for people experiencing genuine difficulties with focus and executive functioning.
 
-🪜 Task Decomposition
+## 🪜 Task Decomposition
 
 Allow users to give Familiar a large or vague objective:
 
 "Build my portfolio."
-
 
 Familiar could help turn it into progressively smaller actions:
 
@@ -149,7 +148,7 @@ Build Portfolio
 
 Breaking a task down should reduce cognitive load and not create another overwhelming list.
 
-🎯 The "Next Step" System
+# The "Next Step" System
 
 Instead of constantly displaying an entire task list, Familiar could maintain a single recommended next action.
 
@@ -168,7 +167,7 @@ Instead of constantly displaying an entire task list, Familiar could maintain a 
 
 This keeps the user's attention on progress rather than the entire workload.
 
-⏱️ Gentle Focus Sessions
+# Gentle Focus Sessions
 
 Focus sessions should be customizable rather than forcing everyone into a rigid productivity technique.
 
@@ -192,7 +191,7 @@ and receive a smaller goal rather than being treated as having failed.
 Familiar should recognize breaks as part of the workflow.
 
 
-🔄 Easy Recovery
+# 🔄 Easy Recovery
 
 Getting distracted shouldn't reset someone's progress.
 
@@ -212,7 +211,7 @@ Next suggested step:
 → Connect the login form to the server.
 
 
-🧩 Context Restoration
+# Context Restoration
 
 One difficult part of returning to a project is remembering what you were doing.
 
@@ -239,7 +238,7 @@ Notes:
 
 This reduces the amount of mental effort required to reconstruct the user's previous context.
 
-🧠 Brain Dump Mode
+# Brain Dump Mode
 
 Sometimes organizing tasks is itself the problem.
 
@@ -287,24 +286,24 @@ Calm
 Playful
 "A wild task appeared! Let's defeat it."
 
-❤️ Mental Health Considerations
+## Mental Health Considerations
 
 Familiar is intended to support productivity—not diagnose, treat, or replace professional mental health care.
 
 The project should avoid language that implies:
 
-Users are lazy.
-Users lack discipline.
-Productivity determines personal worth.
-Missing goals is a moral failure.
-Everyone should be able to work the same way.
-More productivity is always better.
+- Users are lazy.
+- Users lack discipline.
+- Productivity determines personal worth.
+- Missing goals is a moral failure.
+- Everyone should be able to work the same way.
+- More productivity is always better.
 
 Instead, Familiar should treat productivity as something that can be affected by energy, environment, stress, attention, workload, and individual circumstances.
 
 The application should encourage users to seek appropriate professional support when they need it rather than attempting to function as a therapist or medical treatment.
 
-🚫 Anti-Shame Design
+## Anti-Shame Design
 
 Familiar should intentionally avoid productivity mechanics that can make struggling users feel worse.
 
@@ -322,7 +321,7 @@ Constant productivity scoring
 
 Gamification can be useful, but the user should feel like they are playing with their familiar.
 
-🌱 Progress Without Pressure
+## Progress Without Pressure
 
 Instead of measuring only completed tasks, Familiar could track positive indicators such as:
 
@@ -334,7 +333,7 @@ Instead of measuring only completed tasks, Familiar could track positive indicat
 - Made progress after being stuck
 
 
-🛠️ Technology
+## Technology
 
 Familiar is currently developed primarily with:
 
@@ -372,7 +371,7 @@ Makefile
 
 Provides development commands for common project tasks.
 
-🚀 Getting Started
+# 🚀 Getting Started
 
 Clone the repository:
 
@@ -384,7 +383,7 @@ Follow the project's installation and setup instructions.
 
 Development commands can be accessed through the included Makefile.
 
-🗺️ Roadmap
+# 🗺️ Roadmap
 
 Potential future development includes:
 
@@ -403,7 +402,8 @@ Gamified progression
 Project notes and memory
 Accessibility improvements
 Optional AI-assisted planning
-🤝 Contributing
+
+# 🤝 Contributing
 
 Familiar is a project about building technology that treats people with patience.
 
