@@ -132,17 +132,29 @@ Allow users to give Familiar a large or vague objective:
 Familiar could help turn it into progressively smaller actions:
 
 Build Portfolio
+
 │
+
 ├── Choose projects
+
 │   ├── Find project #1
+
 │   ├── Find project #2
+
 │   └── Find project #3
+
 │
+
 ├── Create portfolio structure
+
 │   ├── Create homepage
+
 │   ├── Add projects section
+
 │   └── Add contact section
+
 │
+
 └── Publish
 
 
